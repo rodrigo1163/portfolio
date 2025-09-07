@@ -3,7 +3,7 @@ import { TechBadge } from "@/components/tech-badge";
 import { ProjectCard } from "@/components/project-card";
 import { ExperienceTimeline } from "@/components/experience-timeline";
 import { Header } from "@/components/header";
-import { Github, Linkedin, Mail, Download, ExternalLink } from "lucide-react";
+import { Github, Linkedin, Mail, Download, ExternalLink, MapPin } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import { NavLinkButton } from "@/components/nav-link-button";
@@ -89,12 +89,16 @@ function HomePage() {
       {/* Hero Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-4xl text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 text-balance">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-balance">
             Olá, eu sou <span className="text-primary">Rodrigo Sena</span>
           </h1>
-          <h2 className="text-xl md:text-2xl text-muted-foreground mb-6 font-medium">
+          <h2 className="text-xl md:text-2xl text-muted-foreground font-medium">
             Full-Stack Developer
           </h2>
+          <div className="flex items-center justify-center gap-2 mb-6 text-muted-foreground">
+            <MapPin className="h-4 w-4" />
+            <span className="text-sm md:text-base">Manaus - AM</span>
+          </div>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto text-pretty">
             Desenvolvedor apaixonado por criar soluções web modernas e
             eficientes. Especializado em{" "}
@@ -201,7 +205,7 @@ function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild>
-              <Link href="mailto:joao.silva@email.com">
+              <Link href="mailto:rodrigo.sena1163@gmail.com">
                 <Mail className="mr-2 h-4 w-4" />
                 rodrigo.sena1163@gmail.com
               </Link>

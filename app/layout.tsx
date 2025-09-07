@@ -25,7 +25,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Rodrigo Sena - Full-Stack Developer",
+  title: "Rodrigo Sena | Portfólio",
   description:
     "Portfólio de Rodrigo Sena, desenvolvedor Full-Stack especializado em TypeScript, React, Next.js e Node.js",
 };
