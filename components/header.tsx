@@ -81,6 +81,15 @@ export function Header() {
                 <SheetClose asChild>
                   <NavLink
                     onClick={handleOpenSheet}
+                    href="home"
+                    className="text-left text-sm font-medium hover:text-primary transition-colors cursor-pointer py-2"
+                  >
+                    Início
+                  </NavLink>
+                </SheetClose>
+                <SheetClose asChild>
+                  <NavLink
+                    onClick={handleOpenSheet}
                     href="about"
                     className="text-left text-sm font-medium hover:text-primary transition-colors cursor-pointer py-2"
                   >
