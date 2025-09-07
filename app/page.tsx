@@ -8,6 +8,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { NavLinkButton } from "@/components/nav-link-button";
 import { SplashScreen } from "@/components/splash-screen";
+import { ScrollToTopButton } from "@/components/scroll-to-top-button";
 
 const techStack = [
   "HTML5",
@@ -85,6 +86,7 @@ function HomePage() {
   return (
     <div className="min-h-screen bg-background">
       <Header />
+      <ScrollToTopButton />
 
       {/* Hero Section */}
       <section id="home" className="py-20 px-4">
