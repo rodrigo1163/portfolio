@@ -31,6 +31,12 @@ export function Header() {
 
         <nav className="hidden md:flex items-center space-x-6">
           <NavLink
+            href="home"
+            className="text-sm font-medium hover:text-primary transition-colors cursor-pointer"
+          >
+            Início
+          </NavLink>
+          <NavLink
             href="about"
             className="text-sm font-medium hover:text-primary transition-colors cursor-pointer"
           >

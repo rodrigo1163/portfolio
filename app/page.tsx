@@ -87,7 +87,7 @@ function HomePage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="py-20 px-4">
+      <section id="home" className="py-20 px-4">
         <div className="container mx-auto max-w-4xl text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 text-balance">
             Olá, eu sou <span className="text-primary">Rodrigo Sena</span>
