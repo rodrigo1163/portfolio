@@ -106,10 +106,12 @@ function HomePage() {
               <Mail className="mr-2 h-4 w-4" />
               Entrar em Contato
             </NavLinkButton>
-            <NavLinkButton href="#" size="lg" variant="outline">
-              <Download className="mr-2 h-4 w-4" />
-              Baixar CV
-            </NavLinkButton>
+            <Button size="lg" variant="outline" asChild>
+              <Link href="/Curriculo atualizado-2025.pdf" target="_blank" download>
+                <Download className="mr-2 h-4 w-4" />
+                Baixar CV
+              </Link>
+            </Button>
             <NavLinkButton href="projects" size="lg" variant="ghost">
               <ExternalLink className="mr-2 h-4 w-4" />
               Ver Projetos
